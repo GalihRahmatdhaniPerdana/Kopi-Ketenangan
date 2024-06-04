@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" modified="2024-05-19T03:32:57.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="cmcUMVLG3jqErPnFB0yN" version="24.4.2" type="device">
+  <diagram name="Halaman-1" id="deuVoQwFhNobWvz6Hxyf">
+    <mxGraphModel dx="862" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#FFFFFF;" parent="1" source="nzUKy_hxFitvnFvSaBfX-1" target="nzUKy_hxFitvnFvSaBfX-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-1" value="&lt;b data-sider-select-id=&quot;eaeda0c9-b2ee-43b7-84c3-138fd445ddf2&quot;&gt;&lt;font data-sider-select-id=&quot;abebd53f-fe1f-453d-8b6f-fbeaec0f2434&quot; style=&quot;font-size: 12px;&quot;&gt;PENGECEKAN BARANG&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="349" y="80" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#FFFFFF;" parent="1" source="nzUKy_hxFitvnFvSaBfX-2" target="nzUKy_hxFitvnFvSaBfX-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#FFFFFF;" parent="1" source="nzUKy_hxFitvnFvSaBfX-2" target="nzUKy_hxFitvnFvSaBfX-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#FFFFFF;" parent="1" source="nzUKy_hxFitvnFvSaBfX-2" target="nzUKy_hxFitvnFvSaBfX-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-2" value="&lt;font style=&quot;font-size: 14px;&quot; data-sider-select-id=&quot;3a12a99d-9534-4ffb-b600-c2a6ed06a6dd&quot;&gt;ADMIN&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#FFFFFF;" parent="1" source="nzUKy_hxFitvnFvSaBfX-8" target="nzUKy_hxFitvnFvSaBfX-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#FFFFFF;" parent="1" target="nzUKy_hxFitvnFvSaBfX-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="477.9999999999966" y="335" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-8" value="&lt;b data-sider-select-id=&quot;486d82c7-722a-4921-b3d1-7e6e66d072e2&quot;&gt;&lt;font data-sider-select-id=&quot;7f97dba3-7a89-47c7-9712-6989595a2920&quot; style=&quot;font-size: 13px;&quot;&gt;Proses Pembelian Produk&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="348" y="300" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-9" value="&lt;b data-sider-select-id=&quot;8273c6b2-46c0-4658-bf5c-175fc9995048&quot;&gt;ENTRY DATA&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="349" y="480" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#FFFFFF;" parent="1" source="nzUKy_hxFitvnFvSaBfX-10" target="nzUKy_hxFitvnFvSaBfX-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="160" />
+              <mxPoint x="510" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-10" value="&lt;b data-sider-select-id=&quot;41422c6b-612e-47e2-8d53-28b3b59945a3&quot;&gt;Katalog&lt;/b&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="600" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-13" value="&lt;b data-sider-select-id=&quot;4e173fbb-a845-4a64-a8b3-1abf89744ea5&quot;&gt;CUSTOMER&lt;/b&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="600" y="305" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-27" value="&lt;b data-sider-select-id=&quot;2d8d7efa-e6fc-4ecc-a3c1-e50d92282de8&quot;&gt;BARANG&lt;/b&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="600" y="562.5" width="120" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-28" value="&lt;b data-sider-select-id=&quot;b8f0b467-4faa-4471-b8a3-b7bb0cefc4b8&quot;&gt;CUSTOMER&lt;/b&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="600" y="510" width="120" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.958;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#FFFFFF;" parent="1" source="nzUKy_hxFitvnFvSaBfX-9" target="nzUKy_hxFitvnFvSaBfX-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.961;entryY=0.744;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#FFFFFF;" parent="1" source="nzUKy_hxFitvnFvSaBfX-27" target="nzUKy_hxFitvnFvSaBfX-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-33" value="Data Katalog Kopi&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="108" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-34" value="Informasi Katalog Kopi" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="170" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-35" value="Daftar Produk Kopi yang&amp;nbsp;&lt;div&gt;Dibeli, Data Pembayaran&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="305" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-36" value="Bukti Pembayaran Pembelian Produk" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="129" y="420" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-37" value="&lt;b&gt;Data Produk Kopi&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="473" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nzUKy_hxFitvnFvSaBfX-38" value="&lt;b&gt;Pesanan Customer&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="468" y="590" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
