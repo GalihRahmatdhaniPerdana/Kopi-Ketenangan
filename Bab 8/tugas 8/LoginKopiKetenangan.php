@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Kopi Ketenangan</title>
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+<body>
+    <header id="navbar">
+        <div class="container" >
+          <img src="asset/logo.png" alt="logo" class="logo"/>
+          <nav>
+            <ul type="square">
+              <li><a href="#">Home</a></li>
+              <li><a href="RegisterKopiKetenangan.html">Register</a></li>
+              <li><a href="adminkopi.html">Admin</a></li>
+              <li><a href="adminkopi.html">Katalog</a></li>
+              <li><a href="adminkopi.html">Lokasi</a></li>
+              <li class="login"><a href="LoginKopiKetenangan.html">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section id="login">
+          <h2>LOGIN KOPI KETENANGAN</h2>
+          <form action="proses-masuk.php" method="POST">
+              <label for="username">Masukan Username</label>
+              <input type="text" id="username" name="username" required>
+                  
+              <label for="password">Masukan Password</label>
+              <input type="password" id="password" name="password" required>
+  
+              <button type="submit" class="btn" name="login">Login</button>
+          </form>
+          <p>Belum punya akun? <a href="RegisterKopiKetenangan.php">Daftar di sini</a></p>
+      </section>
+      <center>
+        <p> © Kopi Ketenangan All Rights Reserved 2024</p>
+    </center>
+    </footer>
+</body>
+</html>
