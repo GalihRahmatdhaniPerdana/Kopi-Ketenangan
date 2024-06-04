@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8; /* Warna latar belakang */
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+.container{
+  width: 95%;
+  margin: 0px auto; /* Warna latar belakang header */
+  background-color: rgba(0, 0, 0, 0); /* Warna latar belakang navbar transparan */
+  color: white;
+  /* position: fixed; */
+  /* width: 100%; */
+  transition: background-color 0.3s ease;
+}
+.navbar-bg {
+  background-color: #dad8d7; /* Warna latar belakang navbar saat digulir ke bawah */
+}
+.logo{
+  width: 400px;
+  display: inline-block;
+}
+
+header h1 {
+  color: #fff; /* Warna teks judul */
+}
+nav{
+  margin-top: 28px;
+  float: right;
+  display: inline-block;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  font-size: 17px;
+  text-decoration: none;
+  color: #311d05; /* Warna teks tautan */
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.fot{
+  margin: 0px;
+}
+.fot ul li{
+  text-align: left;
+}
+nav ul li a:hover {
+  color: #ccc; /* Warna teks tautan saat dihover */
+}
+
+.News {
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  background-image: url('../asset/bg.png');
+  text-align: right;
+  padding: 50px 0;
+  padding-right: 5%;
+}
+.isi{
+  padding-top: 14%;
+}
+.News h2 {
+  margin: 0px;
+  font-size: 100px;
+  color: #5b3300; /* Warna teks judul */
+}
+.News p{
+  margin: 0px;
+  font-size: 30px;
+  color: #7f7d7a; /* Warna teks judul */
+}
+.login a{
+  cursor: pointer;
+}
+.login{
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: 2px solid #0d3c18;
+}
+.login:hover{
+  background-color: #0d3c18;
+  color: #dad8d7;
+}
+.btn {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #5b3300; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555; /* Warna latar belakang tombol saat dihover */
+}
+.testimoni{
+  text-align: center;
+  /* height: 400px; */
+}
+.testimoni h1{
+  color: #0d3c18;
+  padding: 0px;
+  font-size: 70px;
+  margin: 180px 0px 50px;
+}
+.testimoni h2{
+  padding: 30px 20px;
+  display: inline-block;
+  border: 2.2px dashed #ead9d0;
+  color: #ead9d0;
+  border-radius: 100px;
+  margin: 0px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+.testimoni img{
+  width: 300px;
+  height: 300px;
+}
+.g1{
+  position: absolute;
+  left: 20px;
+  top: 800px;
+}
+.g2{
+  position: absolute;
+  right: 10px;
+  top: 1000px;
+}
+
+footer {
+  display: flex;
+  background-color: #dde3df; /* Warna latar belakang footer */
+  color: #fff; /* Warna teks footer */
+  padding: 20px 0;
+  font-size: 20px;
+  color: #000;
+}
+.kanan,
+.tengah,
+.kiri{
+  margin: 0px 30px;
+}
+.tengah{
+  margin-left: 10px;
+}
+.kiri{
+  width: 1000px;
+}
+.kiri img{
+  width: 400px;
+  margin-bottom: 120px;
+}
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden; /* Menggunakan hidden untuk menghindari scroll horizontal */
+  transition: transform 0.5s ease; /* Animasi slide */
+}
+
+.carousel-item {
+  min-width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 20px;
+  flex-grow: 1;
+  transition: transform 0.5s ease; /* Animasi slide */
+}
+
+.carousel-item img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.item-content {
+  text-align: center;
+}
+.carousel-item button{
+  font-size: 20px;
+  border: none;
+  border-radius: 40px;
+  background-color: #0d3c18;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #0d3c18;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 50px;
+  z-index: 1;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+
+.kanan img{
+  width: 30px;
+  height: 30px;
+}
+.icon{
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column; 
+}
+.hp{
+  padding-top: 100px;
+}
