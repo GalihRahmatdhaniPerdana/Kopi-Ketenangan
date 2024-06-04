@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+ul,
+li {
+  margin: 10px;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #bebbbb; /* Warna latar belakang halaman */
+}
+
+/* Center the content */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style untuk navigasi */
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #452d26; /* Warna teks menu */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ddb892; /* Warna teks menu saat dihover */
+}
+
+/* Style untuk gambar logo */
+header img {
+  width: 200px;
+}
+
+/* Style untuk form register */
+#register {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  max-width: 500px;
+  margin: 5px;
+}
+
+#register h2 {
+  margin-bottom: 20px;
+  color: #452d26;
+}
+
+#register label {
+  display: block;
+  margin-bottom: 10px;
+  color: #452d26;
+}
+
+#register input[type="text"],
+#register input[type="email"],
+#register input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#register button[type="submit"] {
+  background-color: #ddb892;
+  color: #452d26;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#register button[type="submit"]:hover {
+  background-color: #b48e68;
+}
+
+#register p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#register p a {
+  color: #452d26;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#register p a:hover {
+  color: #ddb892;
+}
+
+/* Style untuk footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #452d26;
+}
