@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="assets/icon.png" />
+    <link rel="stylesheet" href="css/adminkopi.css" />
+    <!-- Boxicons CDN Link -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User</title>
+</head>
+<body>
+<!-- Popup Form -->
+<div id="popup" class="popup">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <form id="dataForm">
+        <label for="kopi">Jenis Kopi:</label>
+        <input type="text" id="kopi" name="kopi" required>
+        
+        <label for="harga">Harga:</label>
+        <input type="number" id="harga" name="harga" required>
+        
+        <input type="submit" value="Simpan">
+    </form>
+</div>
+
+<!-- Overlay -->
+<div id="overlay" class="overlay"></div>
+    <div class="sidebar">
+        <div class="logo-details">
+            <i class="bx bx-category"></i>
+            <span class="logo_name">Kopi Ketenangan</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#" class="active">
+                    <i class="bx bx-grid-alt"></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="jeniskopi.html">
+                    <i class="bx bx-box"></i>
+                    <span class="links_name">Jenis Kopi </span>
+                 </a>
+         
+            </li>
+            <li>
+                <a href="transaksi.html">
+                    <i class="bx bx-list-ul"></i>
+                    <span class="links_name">Transaksi</span>
+                 </a>
+         
+            </li>
+            <li>
+                <a href="#">
+                    <i class="bx bx-log-out"></i>
+                    <span class="links_name">Log out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <nav>
+            <div class="sidebar-button">
+                <i class="bx bx-menu sidebarBtn"></i>
+            </div>
+            <div class="profile-details">
+                <span class="admin_name"> Kopi Ketenangan</span>
+            </div>
+        </nav>
+        <div class="home-content">
+            <h3>Jenis Kopi </h3>
+            <button type="button" class="btn btn-tambah" onclick="togglePopup()">Add Data</button>
+            <table class="table-data">
+                <thead>
+                    <tr>
+                        <th style="width: 20%">Jenis Kopi</th>
+                        <th style="width: 20%">Harga/pcs</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- Data dari local storage akan dimasukkan di sini -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="jeniskopi.js"></script>
+</body>
+</html>
