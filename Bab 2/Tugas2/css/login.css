@@ -1,0 +1,101 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+ul,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Warna latar belakang halaman */
+}
+
+header {
+  background-color: #452d26; /* Warna latar belakang header */
+  color: #fff; /* Warna teks header */
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease; /* Efek transisi warna */
+}
+
+nav ul li a:hover {
+  color: #ddb892; /* Warna saat tautan navbar dihover */
+}
+
+#login {
+  background-color: #fff; /* Warna latar belakang form login */
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+#login h2 {
+  color: #452d26; /* Warna teks judul */
+  margin-bottom: 20px;
+}
+
+#login label {
+  display: block;
+  margin-bottom: 10px;
+  color: #452d26; /* Warna teks label */
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd; /* Warna garis bawah input */
+  border-radius: 5px;
+}
+
+#login button {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  background-color: #452d26; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efek transisi */
+}
+
+#login button:hover {
+  background-color: #b48e68; /* Warna latar belakang tombol saat dihover */
+}
+
+#login p {
+  margin-top: 50px;
+  text-align: right;
+}
+
+#login p a {
+  color: #007bff; /* Warna tautan daftar */
+}
